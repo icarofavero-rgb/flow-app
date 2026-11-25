@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="120" fill="#c6f432"/>
+  <!-- carteira no centro + anel de "volta" ao redor, como Saturno -->
+  <g transform="translate(32 32) scale(14)" fill="none" stroke="#0b0b0d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-18 16 16)"><path d="M1.5 16A14.5 4.2 0 0 1 30.5 16"/></g>
+    <rect x="10" y="9" width="12" height="10.5" rx="2.5" fill="#c6f432"/>
+    <path d="M10 12.2h9.5"/><path d="M22 13.4h-3a1.6 1.6 0 0 0 0 3.2h3"/>
+    <g transform="rotate(-18 16 16)">
+      <path d="M30.5 16A14.5 4.2 0 0 1 2 17.1" stroke="#c6f432" stroke-width="4.4"/>
+      <path d="M30.5 16A14.5 4.2 0 0 1 2 17.1"/><path d="M2.1 20.1 2 17.1 5 17.5"/>
+    </g>
+  </g>
+</svg>
