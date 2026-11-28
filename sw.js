@@ -1,7 +1,7 @@
 // Service worker: deixa o site funcionando offline depois do primeiro acesso.
 // Modelo: o build (vite.config.ts) troca __ASSETS__ pela lista de arquivos gerados
 // e __VERSION__ por um código que muda a cada build (o cache antigo é descartado).
-const CACHE = 'flow-cffac61657';
+const CACHE = 'flow-73841e7c46';
 const ASSETS = ["./","./icon.svg","./icons/icon-192.png","./icons/icon-512.png","./manifest.webmanifest"];
 
 self.addEventListener('install', e => {
